@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-21 17:07:30.186152",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "field1",
+  "field3",
+  "field5",
+  "field7",
+  "field9",
+  "column_break_rkyk",
+  "field2",
+  "field4",
+  "field6",
+  "field8"
+ ],
+ "fields": [
+  {
+   "fieldname": "field1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Field1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "field3",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field3"
+  },
+  {
+   "fieldname": "field5",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Field5"
+  },
+  {
+   "fieldname": "field7",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field7"
+  },
+  {
+   "fieldname": "field9",
+   "fieldtype": "Data",
+   "label": "Field9"
+  },
+  {
+   "fieldname": "column_break_rkyk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "field2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Field2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "field4",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field4"
+  },
+  {
+   "fieldname": "field6",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field6"
+  },
+  {
+   "fieldname": "field8",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field8"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-21 18:24:31.852588",
+ "modified_by": "Administrator",
+ "module": "Cm Demo",
+ "name": "cm-doc-demo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
