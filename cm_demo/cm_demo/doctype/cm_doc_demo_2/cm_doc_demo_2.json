@@ -1,7 +1,9 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
- "creation": "2025-03-21 17:07:30.186152",
+ "autoname": "prompt",
+ "creation": "2025-03-27 10:12:43.203686",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -57,6 +59,23 @@
    "label": "Field9"
   },
   {
+   "fieldname": "field11",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field11"
+  },
+  {
+   "fieldname": "field13",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field13"
+  },
+  {
+   "fieldname": "field15",
+   "fieldtype": "Data",
+   "label": "Field15"
+  },
+  {
    "fieldname": "column_break_rkyk",
    "fieldtype": "Column Break"
   },
@@ -87,23 +106,6 @@
    "label": "Field8"
   },
   {
-   "fieldname": "field11",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Field11"
-  },
-  {
-   "fieldname": "field13",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Field13"
-  },
-  {
-   "fieldname": "field15",
-   "fieldtype": "Data",
-   "label": "Field15"
-  },
-  {
    "fieldname": "field10",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -131,10 +133,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-27 09:52:37.934708",
+ "modified": "2025-03-27 10:12:43.203686",
  "modified_by": "Administrator",
  "module": "Cm Demo",
- "name": "cm-doc-demo",
+ "name": "cm-doc-demo-2",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
@@ -146,6 +149,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
    "share": 1,
    "write": 1
   }
