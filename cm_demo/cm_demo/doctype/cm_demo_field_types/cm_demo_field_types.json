@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2025-04-01 10:28:39.622688",
  "doctype": "DocType",
@@ -46,7 +47,6 @@
    "fieldname": "long_text_field",
    "fieldtype": "Long Text",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Long Text Field"
   },
   {
@@ -123,7 +123,6 @@
    "fieldname": "markdown_editor_field",
    "fieldtype": "Markdown Editor",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Markdown Editor Field"
   },
   {
@@ -171,7 +170,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-01 10:42:54.334991",
+ "modified": "2025-04-01 11:10:16.519312",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-demo-field-types",
@@ -193,5 +192,8 @@
  "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }
