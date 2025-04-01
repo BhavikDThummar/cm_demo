@@ -1,0 +1,197 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-01 10:28:39.622688",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "datafield",
+  "int_field",
+  "float_field",
+  "currency_field",
+  "percent_field",
+  "autocomplete_field",
+  "select_field",
+  "date_field",
+  "time_field",
+  "datetime_field",
+  "small_text_field",
+  "long_text_field",
+  "text_field",
+  "html_editor_field",
+  "markdown_editor_field",
+  "text_editor_field",
+  "code_field",
+  "icon_field",
+  "button_field",
+  "check_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "datafield",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Data Field",
+   "reqd": 1
+  },
+  {
+   "fieldname": "small_text_field",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Small Text Field"
+  },
+  {
+   "fieldname": "long_text_field",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Long Text Field"
+  },
+  {
+   "fieldname": "text_field",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Text Field"
+  },
+  {
+   "fieldname": "int_field",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Int Field"
+  },
+  {
+   "fieldname": "float_field",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Float Field"
+  },
+  {
+   "fieldname": "currency_field",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Currency Field"
+  },
+  {
+   "fieldname": "autocomplete_field",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Autocomplete Field"
+  },
+  {
+   "fieldname": "date_field",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date Field"
+  },
+  {
+   "fieldname": "time_field",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Time Field"
+  },
+  {
+   "fieldname": "datetime_field",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Datetime Field"
+  },
+  {
+   "fieldname": "percent_field",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Percent Field"
+  },
+  {
+   "fieldname": "html_editor_field",
+   "fieldtype": "HTML Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "HTML Editor Field"
+  },
+  {
+   "fieldname": "markdown_editor_field",
+   "fieldtype": "Markdown Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Markdown Editor Field"
+  },
+  {
+   "fieldname": "text_editor_field",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Text Editor Field"
+  },
+  {
+   "fieldname": "icon_field",
+   "fieldtype": "Icon",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Icon Field"
+  },
+  {
+   "fieldname": "code_field",
+   "fieldtype": "Code",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Code Field"
+  },
+  {
+   "fieldname": "select_field",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Select Field"
+  },
+  {
+   "fieldname": "button_field",
+   "fieldtype": "Button",
+   "label": "Button Field"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_field",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Check Field"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-01 10:42:54.334991",
+ "modified_by": "Administrator",
+ "module": "Cm Demo",
+ "name": "cm-demo-field-types",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

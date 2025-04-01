@@ -2,7 +2,6 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "prompt",
  "creation": "2025-03-27 10:12:43.203686",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -133,11 +132,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-27 10:12:43.203686",
+ "modified": "2025-03-28 13:16:30.428260",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-doc-demo-2",
- "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
