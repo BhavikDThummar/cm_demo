@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-10 18:22:31.210355",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "cm_section_1_section",
+  "cm_autocomplete_field",
+  "column_break_hnuz",
+  "cm_custom_autocompelte_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "cm_section_1_section",
+   "fieldtype": "Section Break",
+   "label": "cm section 1"
+  },
+  {
+   "fieldname": "cm_autocomplete_field",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "cm autocomplete field",
+   "options": "cm-auto-1\ncm-auto-2\ncm-auto-3\ncm-auto-4"
+  },
+  {
+   "fieldname": "cm_custom_autocompelte_field",
+   "fieldtype": "CustomAutocomplete",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "cm custom autocompelte field",
+   "options": "cm-auto-1\ncm-auto-2\ncm-auto-3\ncm-auto-4"
+  },
+  {
+   "fieldname": "column_break_hnuz",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-11 15:53:31.246945",
+ "modified_by": "Administrator",
+ "module": "Cm Demo",
+ "name": "cm-test-new",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

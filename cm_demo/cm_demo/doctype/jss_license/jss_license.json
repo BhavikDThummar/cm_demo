@@ -19,7 +19,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-03-28 19:17:47.814170",
+ "modified": "2025-04-03 18:13:50.830271",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "jss_license",
@@ -32,6 +32,16 @@
    "print": 1,
    "read": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Test Role",
    "share": 1,
    "write": 1
   }

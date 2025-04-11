@@ -2,7 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "creation": "2025-03-21 17:07:30.186152",
+ "creation": "2025-04-04 09:59:42.235561",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -14,7 +14,6 @@
   "field11",
   "field13",
   "field15",
-  "field17",
   "column_break_rkyk",
   "field2",
   "field4",
@@ -23,8 +22,7 @@
   "field10",
   "field12",
   "field14",
-  "field16",
-  "field18"
+  "field16"
  ],
  "fields": [
   {
@@ -39,6 +37,7 @@
   {
    "fieldname": "field3",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field3"
   },
   {
@@ -61,12 +60,31 @@
    "label": "Field9"
   },
   {
+   "fieldname": "field11",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field11"
+  },
+  {
+   "fieldname": "field13",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field13"
+  },
+  {
+   "fieldname": "field15",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Field15"
+  },
+  {
    "fieldname": "column_break_rkyk",
    "fieldtype": "Column Break"
   },
   {
    "fieldname": "field2",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Field2",
    "reqd": 1
@@ -74,76 +92,53 @@
   {
    "fieldname": "field4",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field4"
   },
   {
    "fieldname": "field6",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field6"
   },
   {
    "fieldname": "field8",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field8"
-  },
-  {
-   "fieldname": "field11",
-   "fieldtype": "Data",
-   "label": "Field11"
-  },
-  {
-   "fieldname": "field13",
-   "fieldtype": "Data",
-   "label": "Field13"
-  },
-  {
-   "fieldname": "field15",
-   "fieldtype": "Data",
-   "label": "Field15"
   },
   {
    "fieldname": "field10",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field10"
   },
   {
    "fieldname": "field12",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field12"
   },
   {
    "fieldname": "field14",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field14"
   },
   {
    "fieldname": "field16",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field16"
-  },
-  {
-   "fieldname": "field17",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Field17",
-   "non_negative": 1
-  },
-  {
-   "fieldname": "field18",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Field18"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-07 12:47:42.264768",
+ "modified": "2025-04-04 11:20:47.413413",
  "modified_by": "Administrator",
  "module": "Cm Demo",
- "name": "cm-doc-demo",
+ "name": "cm-doc-demo-performance",
  "owner": "Administrator",
  "permissions": [
   {

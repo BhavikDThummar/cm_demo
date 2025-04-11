@@ -5,6 +5,13 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_1_section",
+  "data_field",
+  "column_break_ztcn",
+  "int_field",
+  "section_2_section",
+  "cm_autocomplete_field",
+  "abcd",
   "long_text_field"
  ],
  "fields": [
@@ -13,12 +20,53 @@
    "fieldtype": "Long Text",
    "in_list_view": 1,
    "label": "Long Text Field"
+  },
+  {
+   "fieldname": "section_1_section",
+   "fieldtype": "Section Break",
+   "label": "Section 1"
+  },
+  {
+   "fieldname": "data_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Data Field",
+   "length": 140
+  },
+  {
+   "fieldname": "column_break_ztcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "int_field",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Int Field",
+   "length": 2,
+   "non_negative": 1
+  },
+  {
+   "fieldname": "section_2_section",
+   "fieldtype": "Section Break",
+   "label": "Section 2"
+  },
+  {
+   "fieldname": "cm_autocomplete_field",
+   "fieldtype": "Autocomplete",
+   "label": "Cm Autocomplete Field"
+  },
+  {
+   "fieldname": "abcd",
+   "fieldtype": "Attach",
+   "label": "abcd"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-01 15:38:08.580533",
+ "modified": "2025-04-10 17:22:20.838407",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-test",
