@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-11 18:54:36.466939",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rfq_lineitem_ref",
+  "mfg_code",
+  "mfg_pn",
+  "mfg_code_id",
+  "mfg_pn_ref",
+  "part_ref",
+  "description",
+  "rohs_status_id",
+  "part_type_id",
+  "mounting_type_id",
+  "part_category_id",
+  "distributor",
+  "dist_mfg_code_id",
+  "dist_pn",
+  "dist_mfg_pn_ref"
+ ],
+ "fields": [
+  {
+   "fieldname": "rfq_lineitem_ref",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "RFQ Lineitem Ref",
+   "options": "CM RFQ Lineitems"
+  },
+  {
+   "fieldname": "mfg_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "MFG Code"
+  },
+  {
+   "fieldname": "mfg_pn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "MFG PN"
+  },
+  {
+   "fieldname": "mfg_code_id",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "MFG Code ID"
+  },
+  {
+   "fieldname": "mfg_pn_ref",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "MFG PN Ref",
+   "options": "CM Component"
+  },
+  {
+   "fieldname": "part_ref",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Part Ref",
+   "options": "CM Component"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "rohs_status_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "RoHS Status ID"
+  },
+  {
+   "fieldname": "part_type_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Part Type ID"
+  },
+  {
+   "fieldname": "mounting_type_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Mounting Type ID"
+  },
+  {
+   "fieldname": "part_category_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Part Category ID"
+  },
+  {
+   "fieldname": "distributor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Distributor"
+  },
+  {
+   "fieldname": "dist_mfg_code_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Dist MFG Code ID"
+  },
+  {
+   "fieldname": "dist_pn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dist PN"
+  },
+  {
+   "fieldname": "dist_mfg_pn_ref",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Dist MFG PN Ref",
+   "options": "CM Component"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-14 10:22:37.366798",
+ "modified_by": "Administrator",
+ "module": "Cm Demo",
+ "name": "CM RFQ Lineitems Alternate Part",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

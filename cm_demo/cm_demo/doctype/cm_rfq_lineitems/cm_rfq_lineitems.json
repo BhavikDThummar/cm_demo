@@ -1,0 +1,150 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-04-11 18:49:38.300035",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "line_id",
+  "qpa",
+  "ref_designator",
+  "cust_pn",
+  "cust_pn_ref",
+  "description",
+  "is_install",
+  "is_purchase",
+  "is_deleted",
+  "cust_rev",
+  "cust_description",
+  "dnp_qty",
+  "dnp_desig",
+  "part_ref",
+  "cust_line_id",
+  "table_akgg"
+ ],
+ "fields": [
+  {
+   "fieldname": "line_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Line ID"
+  },
+  {
+   "fieldname": "qpa",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "QPA"
+  },
+  {
+   "fieldname": "ref_designator",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Ref Designator"
+  },
+  {
+   "fieldname": "cust_pn",
+   "fieldtype": "Data",
+   "label": "Cust PN"
+  },
+  {
+   "fieldname": "cust_pn_ref",
+   "fieldtype": "Data",
+   "label": "Cust PN Ref"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_install",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Install"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_purchase",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Purchase"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_deleted",
+   "fieldtype": "Check",
+   "label": "Is Deleted"
+  },
+  {
+   "fieldname": "cust_rev",
+   "fieldtype": "Data",
+   "label": "Cust Rev"
+  },
+  {
+   "fieldname": "cust_description",
+   "fieldtype": "Long Text",
+   "label": "Cust Description"
+  },
+  {
+   "fieldname": "dnp_qty",
+   "fieldtype": "Float",
+   "label": "DNP Qty"
+  },
+  {
+   "fieldname": "dnp_desig",
+   "fieldtype": "Data",
+   "label": "DNP Desig"
+  },
+  {
+   "fieldname": "part_ref",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Part Ref",
+   "options": "CM Component"
+  },
+  {
+   "fieldname": "cust_line_id",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Cust Line ID"
+  },
+  {
+   "fieldname": "table_akgg",
+   "fieldtype": "Table",
+   "options": "CM RFQ Lineitems Alternate Part"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-14 10:37:35.819307",
+ "modified_by": "Administrator",
+ "module": "Cm Demo",
+ "name": "CM RFQ Lineitems",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
