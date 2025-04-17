@@ -119,6 +119,7 @@
   {
    "fieldname": "field16",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Field16"
   },
   {
@@ -140,7 +141,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-07 12:47:42.264768",
+ "modified": "2025-04-16 18:08:10.935916",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-doc-demo",

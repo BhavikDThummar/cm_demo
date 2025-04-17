@@ -76,6 +76,8 @@
   {
    "fieldname": "category",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Category"
   },
   {
@@ -105,7 +107,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-14 10:11:28.735739",
+ "modified": "2025-04-16 11:04:07.953734",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "CM Component",

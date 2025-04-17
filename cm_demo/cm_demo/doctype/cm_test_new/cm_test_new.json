@@ -8,13 +8,26 @@
   "cm_section_1_section",
   "cm_autocomplete_field",
   "column_break_hnuz",
-  "cm_custom_autocompelte_field"
+  "cm_custom_autocompelte_field",
+  "cm_t1s2_section",
+  "cm_t2s2f1",
+  "column_break_cgge",
+  "cm_t1s2f2",
+  "column_break_kzff",
+  "cm_t1s2f3",
+  "text_editor_crpx",
+  "tab_break_ywwr",
+  "cm_section_section",
+  "cm_f_2",
+  "cm_tab3_tab",
+  "cm_t3s1_section",
+  "cm_t3s1f1"
  ],
  "fields": [
   {
    "fieldname": "cm_section_1_section",
    "fieldtype": "Section Break",
-   "label": "cm section 1"
+   "label": "Cm T1 S1"
   },
   {
    "fieldname": "cm_autocomplete_field",
@@ -35,12 +48,75 @@
   {
    "fieldname": "column_break_hnuz",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tab_break_ywwr",
+   "fieldtype": "Tab Break",
+   "label": "CM Tab 2"
+  },
+  {
+   "fieldname": "cm_section_section",
+   "fieldtype": "Section Break",
+   "label": "Cm T2S1"
+  },
+  {
+   "fieldname": "cm_f_2",
+   "fieldtype": "Data",
+   "label": "Cm T2S1F1"
+  },
+  {
+   "fieldname": "cm_tab3_tab",
+   "fieldtype": "Tab Break",
+   "label": "CM Tab3"
+  },
+  {
+   "fieldname": "cm_t3s1_section",
+   "fieldtype": "Section Break",
+   "label": "CM T3S1"
+  },
+  {
+   "fieldname": "cm_t3s1f1",
+   "fieldtype": "Data",
+   "label": "CM T3S1F1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cm_t1s2_section",
+   "fieldtype": "Section Break",
+   "label": "CM T1S2"
+  },
+  {
+   "fieldname": "cm_t2s2f1",
+   "fieldtype": "Data",
+   "label": "CM T2S2F1"
+  },
+  {
+   "fieldname": "cm_t1s2f2",
+   "fieldtype": "Data",
+   "label": "CM T1S2F2"
+  },
+  {
+   "fieldname": "column_break_cgge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cm_t1s2f3",
+   "fieldtype": "Data",
+   "label": "CM T1S2F3"
+  },
+  {
+   "fieldname": "column_break_kzff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "text_editor_crpx",
+   "fieldtype": "Text Editor"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-11 15:53:31.246945",
+ "modified": "2025-04-16 13:25:34.986319",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-test-new",
