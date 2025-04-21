@@ -7,31 +7,25 @@
  "field_order": [
   "section_1_section",
   "data_field",
+  "cm_t1s1c1f2",
   "column_break_ztcn",
   "int_field",
   "section_2_section",
-  "cm_autocomplete_field",
-  "abcd",
-  "long_text_field"
+  "cm_autocomplete_field"
  ],
  "fields": [
   {
-   "fieldname": "long_text_field",
-   "fieldtype": "Long Text",
-   "in_list_view": 1,
-   "label": "Long Text Field"
-  },
-  {
    "fieldname": "section_1_section",
    "fieldtype": "Section Break",
-   "label": "Section 1"
+   "label": "CM T1S1"
   },
   {
+   "description": "abcd",
    "fieldname": "data_field",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Data Field",
+   "label": "CM T1S1C1F1",
    "length": 140
   },
   {
@@ -39,34 +33,39 @@
    "fieldtype": "Column Break"
   },
   {
+   "description": "Desc",
    "fieldname": "int_field",
    "fieldtype": "Int",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Int Field",
+   "label": "CM T1S1C2F1",
    "length": 2,
    "non_negative": 1
   },
   {
    "fieldname": "section_2_section",
    "fieldtype": "Section Break",
-   "label": "Section 2"
+   "label": "CM T1S1"
   },
   {
    "fieldname": "cm_autocomplete_field",
    "fieldtype": "Autocomplete",
-   "label": "Cm Autocomplete Field"
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "CM T1S2C1F1"
   },
   {
-   "fieldname": "abcd",
-   "fieldtype": "Attach",
-   "label": "abcd"
+   "fieldname": "cm_t1s1c1f2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "CM T1S1C1F2"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-10 17:22:20.838407",
+ "modified": "2025-04-18 17:36:59.994323",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-test",
@@ -81,6 +80,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Test Role",
    "share": 1,
    "write": 1
   }

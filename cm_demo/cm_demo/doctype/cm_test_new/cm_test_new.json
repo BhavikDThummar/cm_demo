@@ -60,6 +60,7 @@
    "label": "Cm T2S1"
   },
   {
+   "description": "Abcd it's test description",
    "fieldname": "cm_f_2",
    "fieldtype": "Data",
    "label": "Cm T2S1F1"
@@ -75,6 +76,7 @@
    "label": "CM T3S1"
   },
   {
+   "description": "dadsdddada",
    "fieldname": "cm_t3s1f1",
    "fieldtype": "Data",
    "label": "CM T3S1F1",
@@ -116,7 +118,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-16 13:25:34.986319",
+ "modified": "2025-04-18 14:53:04.201644",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-test-new",
