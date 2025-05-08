@@ -1,0 +1,83 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "creation": "2025-05-08 14:44:57.089154",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "t1s1_section",
+    "data_haeo",
+    "column_break_xwrx",
+    "t1s2_section",
+    "t1s2f1",
+    "column_break_hebl",
+    "t1s2f2"
+  ],
+  "fields": [
+    {
+      "fieldname": "t1s1_section",
+      "fieldtype": "Section Break",
+      "label": "T1S1"
+    },
+    {
+      "fieldname": "data_haeo",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "T1S1F1"
+    },
+    {
+      "fieldname": "t1s2_section",
+      "fieldtype": "Section Break",
+      "label": "T1S2"
+    },
+    {
+      "fieldname": "t1s2f1",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "T1S2F1"
+    },
+    {
+      "fieldname": "column_break_xwrx",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "column_break_hebl",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "t1s2f2",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "T1S2F2"
+    }
+  ],
+  "grid_page_length": 50,
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2025-05-08 14:54:35.837006",
+  "modified_by": "Administrator",
+  "module": "Cm Demo",
+  "name": "cm-nested-section",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "row_format": "Dynamic",
+  "sort_field": "creation",
+  "sort_order": "DESC",
+  "states": []
+}
