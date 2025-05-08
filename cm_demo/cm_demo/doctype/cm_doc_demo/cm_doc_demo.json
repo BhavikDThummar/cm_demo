@@ -15,6 +15,8 @@
   "field13",
   "field15",
   "field17",
+  "column_break_khbb",
+  "dodhu",
   "column_break_rkyk",
   "field2",
   "field4",
@@ -136,12 +138,21 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Field18"
+  },
+  {
+   "fieldname": "column_break_khbb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dodhu",
+   "fieldtype": "Data",
+   "label": "dodhu"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-16 18:08:10.935916",
+ "modified": "2025-04-30 20:15:00.692398",
  "modified_by": "Administrator",
  "module": "Cm Demo",
  "name": "cm-doc-demo",
