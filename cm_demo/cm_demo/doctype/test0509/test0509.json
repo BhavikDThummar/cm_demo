@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-09 17:15:28.016060",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "a1_section",
+  "s1f1",
+  "s2_section",
+  "s2f1",
+  "column_break_ugee",
+  "s2f2",
+  "section_break_hxed",
+  "s3_column",
+  "s3f1"
+ ],
+ "fields": [
+  {
+   "fieldname": "a1_section",
+   "fieldtype": "Section Break",
+   "label": "A1"
+  },
+  {
+   "fieldname": "s1f1",
+   "fieldtype": "Data",
+   "label": "S1F1"
+  },
+  {
+   "fieldname": "s2_section",
+   "fieldtype": "Section Break",
+   "label": "S2"
+  },
+  {
+   "fieldname": "s2f1",
+   "fieldtype": "Data",
+   "label": "S2F1"
+  },
+  {
+   "fieldname": "column_break_ugee",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "s2f2",
+   "fieldtype": "Data",
+   "label": "S2F2"
+  },
+  {
+   "fieldname": "section_break_hxed",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "s3_column",
+   "fieldtype": "Column Break",
+   "label": "S3"
+  },
+  {
+   "fieldname": "s3f1",
+   "fieldtype": "Data",
+   "label": "S3F1"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-09 17:16:32.100413",
+ "modified_by": "Administrator",
+ "module": "Cm Demo",
+ "name": "Test0509",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
